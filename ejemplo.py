@@ -1,10 +1,7 @@
-# a = 1
-# b = 2
-#
-# #print(a+b)
+# Se cambia el ejemplo de la suma por un saludo básico. 
 
+Nombre = 'Luis'
+Apellido = 'Herreño'
 
-def sumaaa(*num):
-    return sum(num)
-
-print (sumaaa(1,2,3,4,5))
+Saludo = "Hola " + Nombre + " " + Apellido + " ¿Como estás?"
+print(Saludo)
